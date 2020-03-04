@@ -1,0 +1,142 @@
+    1  cd project/project1/
+    2  ls -lrt
+    3  vi .gitignore
+    4  git add .gitignore
+    5  git commit -m "this is .gitignore file"
+    6  git ls-files
+    7  history
+    8  gitshow
+    9  git show
+   10  git ls-files
+   11  git status
+   12  vi create.txt
+   13  ls -a
+   14  git add create.txt
+   15  git commit -m "2nd commit" 
+   16  git ls-files
+   17  git log
+   18  git log--oneline
+   19  git log --oneline
+   20  git show b6936bf
+   21  git log--oneline
+   22  git log --oneline
+   23  git ls-files
+   24  git log --oneline
+   25  git reset help
+   26  git reset --help
+   27  clear
+   28  git log --oneline
+   29  git ls-files
+   30  cat create.txt 
+   31  git show b6936bf
+   32  git reset --hard b6936bf
+   33  git log --oneline
+   34  vi resetex.txt
+   35  git add -am "3rd commit" 
+   36  git commit -am "3rd commit"
+   37  git add resetex.txt
+   38  git commit -m "3rd commit"
+   39  git ls-files
+   40  git log --oneline
+   41  git reset --hard 5082e0b
+   42  git log --oneline
+   43  git ls-files
+   44  git reset --hard b6936bf
+   45  git ls-files
+   46  vi reset2.txt
+   47  git commit -am "4th commit"
+   48  git ls-files
+   49  git add reset2.txt
+   50  git commit -m "4th commit"
+   51  git ls-files
+   52  git log --oneline
+   53  git reset --soft b6936bf
+   54  git diff --staged anusha.txt
+   55  git diff --staged reset2.txt
+   56  git status
+   57  git reset --soft b6936bf
+   58  git status
+   59  git log --oneline
+   60  clear
+   61  vi anu.txt
+   62  git add anu.txt
+   63  git commit -m "5th commit"
+   64  git ls-files
+   65  vi anu.txt 
+   66  git commit -am "edited anu file"
+   67  git ls -files
+   68  git ls-files
+   69  git log --oneline
+   70  git status
+   71  git reset --soft b6936bf
+   72  git log --oneline
+   73  git status
+   74  git commit -m "added anu.txt and changes reset2.txt"
+   75  git log --oneline
+   76  cat reset2.txt 
+   77  clear
+   78  git status
+   79  git branch
+   80  git log --oneline
+   81  clear
+   82  git ls-files
+   83  git checkout -b BRANCH1 
+   84  git branch
+   85  git ls-files
+   86  git log  --oneline
+   87  git checkout maste
+   88  git checkout master
+   89  git branch
+   90  git checkout BRANCH1 
+   91  git branch
+   92  vi new.txt
+   93  git status
+   94  git checkout master
+   95  git branch
+   96  git status
+   97  git checkout BRANCH1 
+   98  git add new.txt
+   99  git commit -m "added file in  BRANCH1"
+  100  git ls-files
+  101  git checkout master
+  102  git ls-files
+  103  git rbanch
+  104  git branch
+  105  git merge BRANCH1 
+  106  git ls-files
+  107  git status
+  108  git log --oneline
+  109  clear
+  110  less new.txt 
+  111  vi new.txt 
+  112  pwd
+  113  git status
+  114  git branch
+  115  git checkout BRANCH1 
+  116  vi new.txt 
+  117  git commit -am "added line"
+  118  git merge BRANCH1 
+  119  git branch
+  120  git checkout master 
+  121  vi aaaa.txt
+  122  git add aaaa.txt
+  123  git commit -m "added aaaa.txt"
+  124  git ls-files
+  125  git checkout master 
+  126  git checkout BRANCH1 
+  127  git ls-files
+  128  vi aaaa.txt
+  129  git add aaaa.txt
+  130  git commit -m "added aaaa.txt in BRANCH1"
+  131  git status
+  132  git  merge BRANCH1 master 
+  133  git checkout master
+  134  git merge BRANCH1 
+  135  vi aaaa.txt 
+  136  git commit -m "added after conflicts"
+  137  git commit -am "added after conflicts"
+  138  git ls-files
+  139  cat aaaa.txt 
+  140  git branch
+  141  git checkout master
+  142  history > git.history
